@@ -1,0 +1,23 @@
+/* nav styling */
+nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+   flex: 1;
+   text-align: center;
+}
+
+/* social icons */
+div.social-icons{
+    display: inline;
+    float: right;
+    list-style: none;
+}
+a#facebook, #instagram{
+    text-decoration: none;
+    color: black;
+    width: 40%;
+    padding: 10px;
+}
