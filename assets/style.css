@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oranienbaum&family=Roboto+Slab&display=swap');
-@media only screen and (max-width: 600px) {
-    nav div.navbar{
-        display: block;
-          align-items: center;
-      }
-      
-      .logo{
-         flex: 1;
-         text-align: center;
-         margin: 0;
-      }
+@media only screen and (max-width: 675px) {
+   
 
       /* social icons */
 div.social-icons{
@@ -21,22 +12,9 @@ a#facebook, #instagram, #email{
     color: black;
     padding: 10px;
     float: right;
+    
 }
-      
-   
-    /* jumbotron */
-div.jumbotron{
-    background-image: url('/assets/nl-jumbotron.png');
-    background-size: cover;
-    padding: 200px 0;
-
-}
-
-div.jumbotron-content{
-    text-align: center;
-    margin: 0;
-    color:white;
-} 
+    
 
 /* nav styling */
 nav div.navbar{
@@ -47,7 +25,7 @@ nav div.navbar{
 .logo{
    flex: 1;
    text-align: center;
-   margin-left: 350px;
+   margin-left: 10px;
 }
 
 /* social icons */
@@ -64,24 +42,25 @@ a#facebook, #instagram, #email{
 
 /* jumbotron */
 div.jumbotron{
-    background-image: url('/assets/nl-jumbotron.png');
+    background-image: url('/assets/nl-jumbotron-home.png');
     background-size: cover;
-    padding: 370px 0;
+    padding: 20px 0;
 
 }
 
 div.jumbotron-content{
     text-align: center;
     margin: 0;
-    color:white;
+    color:black;
 }
 h1.homepage-header{
-  font-size: 60px;
+  font-size: 30px;
   font-family: Roboto Slab, serif;
+  padding: 5px;
 }
 
 p.intro-p{
-  font-size: 25px;
+  font-size: 10px;
   max-width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -89,11 +68,11 @@ p.intro-p{
 }
 a.service-btn{
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 13px;
   border-style: solid;
   border-width: 2px;
-  border-color: white;
-color: white;
+  border-color: black;
+color: black ;
 padding: 10px 20px;
 text-align: center;
 text-decoration: none;
@@ -248,32 +227,30 @@ p.desc{
 
 @media only screen and (min-width: 600px){
   /* nav styling */
-nav div.navbar{
-  display: block;
-    align-items: center;
-}
+
 
 .logo{
    flex: 1;
    text-align: center;
-   margin-left: 350px;
+   margin-left: 100px;
 }
 
 /* social icons */
 div.social-icons{
-    display: inline-block;
+    display: flex;
+    
     list-style: none;
 }
 a#facebook, #instagram, #email{
     text-decoration: none;
     color: black;
-    padding: 45px;
-    float: right;
+    padding: 25px;
+   
 }
 
 /* jumbotron */
 div.jumbotron{
-    background-image: url('/assets/nl-jumbotron.png');
+    background-image: url('/assets/nl-jumbotron-home.png');
     background-size: cover;
     padding: 370px 0;
 
@@ -282,7 +259,7 @@ div.jumbotron{
 div.jumbotron-content{
     text-align: center;
     margin: 0;
-    color:white;
+    color:black;
 }
 h1.homepage-header{
   font-size: 60px;
@@ -301,8 +278,8 @@ a.service-btn{
   font-size: 20px;
   border-style: solid;
   border-width: 2px;
-  border-color: white;
-color: white;
+  border-color: black;
+color: black;
 padding: 10px 20px;
 text-align: center;
 text-decoration: none;
@@ -364,10 +341,11 @@ a.footer-icons{
 div.services-jumbotron{
   background-image: url('/assets/nail-lounge-services-bg.png');
   background-size: cover;
-  padding: 100px 0;
+  padding: 25px 0;
 }
 h1.services-header{
   text-align: center;
+ 
   font-family: Roboto Slab, serif;
   font-size: 70px;
 
@@ -375,10 +353,10 @@ h1.services-header{
 p.services-p{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
- font-size: 20px;
+  max-width: 70%;
+ font-size: 18px;
 }
 
 h2.header-services{
@@ -482,7 +460,7 @@ nav div.navbar{
   
   /* jumbotron */
   div.jumbotron{
-      background-image: url('/assets/nl-jumbotron.png');
+      background-image: url('/assets/nl-jumbotron-home.png');
       background-size: cover;
       padding: 400px 0;
   
@@ -491,16 +469,13 @@ nav div.navbar{
   div.jumbotron-content{
       text-align: center;
       margin: 0;
-      color:white;
+      color:black;
   } 
-   
+
 }
 @media only screen and (min-width: 992px){
 /* nav styling */
-nav div.navbar{
-    display: block;
-      align-items: center;
-  }
+
   
   .logo{
      flex: 1;
@@ -510,28 +485,28 @@ nav div.navbar{
   
   /* social icons */
   div.social-icons{
-      display: inline-block;
+     display: flex;
+     float: right;
       list-style: none;
   }
   a#facebook, #instagram, #email{
       text-decoration: none;
       color: black;
       padding: 45px;
-      float: right;
   }
   
   /* jumbotron */
   div.jumbotron{
-      background-image: url('/assets/nl-jumbotron.png');
+      background-image: url('/assets/nl-jumbotron-home.png');
       background-size: cover;
-      padding: 370px 0;
+      padding: 380px 0;
   
   }
   
   div.jumbotron-content{
       text-align: center;
       margin: 0;
-      color:white;
+      color: black;
   }
   h1.homepage-header{
     font-size: 60px;
@@ -549,9 +524,9 @@ nav div.navbar{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     border-style: solid;
-    border-width: 2px;
-    border-color: white;
-  color: white;
+    border-width: 1.5px;
+    border-color: black;
+  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -566,6 +541,68 @@ nav div.navbar{
   }
 
   /* about us */
+  div.about-us{
+    padding: 30px;
+    margin-top: 20px;
+  }
+  img.about-us-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  p.caps{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  h2.about-us-header{
+
+    font-family: Roboto Slab, serif;
+    font-size: 45px;
+    text-align: center;
+
+  }
+  p.about-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* spa info */
+
+  div.spa.col-md{
+    margin-top: 4%;
+  }
+
+  p.spa-info{
+    font-family: Roboto Slab, serif;
+    text-align: center;
+  }
+
+  a.btn.spa-btn{
+    display: block;
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  }
+
+  a.btn.spa-btn:hover{
+    background-color: rgba(0, 0, 0, 0.647);
+    border-color: rgba(0, 0, 0, 0.355);
+    color: white;
+  }
   /* footer */
   div.footer{
     padding: 30px;
