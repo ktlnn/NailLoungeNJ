@@ -310,7 +310,7 @@ a#facebook, #instagram, #email{
 
 /* jumbotron */
 div.jumbotron{
-    background-image: url('style.css');
+    background-image: url('./nl-jumbotron-home.png');
     background-size: cover;
     padding: 370px 0;
 
