@@ -1,50 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oranienbaum&family=Roboto+Slab&display=swap');
 @media only screen and (max-width: 675px) {
-   
-
-      /* social icons */
-div.social-icons{
-    display: inline-block;
-    list-style: none;
-}
-a#facebook, #instagram, #email{
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    float: right;
-    
-}
-    
-
-/* nav styling */
-nav div.navbar{
-  display: block;
-    align-items: center;
-}
 
 .logo{
-   flex: 1;
-   text-align: center;
+
    margin-left: 10px;
 }
 
 /* social icons */
+
+div#navbarNavAltMarkup.navbar-collapse.social-icons.collapse.show{
+display: flex;
+  justify-content: center;
+}
 div.social-icons{
-    display: inline-block;
+ display: inline-block;
     list-style: none;
 }
 a#facebook, #instagram, #email{
+  display: inline-block;
+ 
     text-decoration: none;
     color: black;
-    padding: 45px;
-    float: right;
+    padding: 10px;
+ 
+}
+
+/* phone number */
+p.phone-number{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
 /* jumbotron */
 div.jumbotron{
     background-image: url('/assets/nl-jumbotron-home.png');
     background-size: cover;
-    padding: 20px 0;
+    padding: 160px 0;
 
 }
 
@@ -60,8 +51,8 @@ h1.homepage-header{
 }
 
 p.intro-p{
-  font-size: 10px;
-  max-width: 40%;
+  font-size: 12px;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Montserrat', sans-serif;
@@ -70,7 +61,7 @@ a.service-btn{
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-color: black;
 color: black ;
 padding: 10px 20px;
@@ -86,7 +77,71 @@ a.service-btn:hover{
  color: black;
 }
 
-/* about us */
+  /* about us */
+  div.about-us{
+    padding: 30px;
+    margin-top: 20px;
+  }
+  img.about-us-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  p.caps{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  h2.about-us-header{
+
+    font-family: Roboto Slab, serif;
+    font-size: 45px;
+    text-align: center;
+
+  }
+  p.about-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* spa info */
+
+
+  div.spa.col-md{
+    margin-top: 4%;
+  }
+
+  p.spa-info{
+    font-family: Roboto Slab, serif;
+    text-align: center;
+
+  }
+
+  a.btn.spa-btn{
+    display: block;
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  }
+
+  a.btn.spa-btn:hover{
+    background-color: rgba(0, 0, 0, 0.647);
+    border-color: rgba(0, 0, 0, 0.355);
+    color: white;
+  }
 /* footer */
 div.footer{
   padding: 30px;
@@ -132,9 +187,9 @@ a.footer-icons{
 
 /* services page */
 div.services-jumbotron{
-  background-image: url('/assets/nail-lounge-services-bg.png');
+    
   background-size: cover;
-  padding: 100px 0;
+  padding: 25px 0;
 }
 h1.services-header{
   text-align: center;
@@ -145,15 +200,15 @@ h1.services-header{
 p.services-p{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  max-width: 60%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
- font-size: 20px;
+ font-size: 18px;
 }
 
 h2.header-services{
   font-family: Roboto Slab, serif;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   padding: 30px;
 }
@@ -161,23 +216,28 @@ h2.header-services{
   h3.col-services{
   text-align: center;
       font-family: Roboto Slab, serif;
+
 }
 
 ul.mani, p.mani{
   list-style: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   
 }
 li.mani-desc{
   padding: 10px;
 }
 
+li.mani-pedi-desc{
+  text-align: center;
+}
+
 p.desc{
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   text-align: center;
-  max-width: 75%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -293,7 +353,70 @@ a.service-btn:hover{
  color: black;
 }
 
-/* about us */
+  /* about us */
+  div.about-us{
+    padding: 30px;
+    margin-top: 20px;
+  }
+  img.about-us-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  p.caps{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  h2.about-us-header{
+
+    font-family: Roboto Slab, serif;
+    font-size: 45px;
+    text-align: center;
+
+  }
+  p.about-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* spa info */
+  
+
+  div.spa.col-md{
+    margin-top: 4%;
+  }
+
+  p.spa-info{
+    font-family: Roboto Slab, serif;
+    text-align: center;
+  }
+
+  a.btn.spa-btn{
+    display: block;
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  }
+
+  a.btn.spa-btn:hover{
+    background-color: rgba(0, 0, 0, 0.647);
+    border-color: rgba(0, 0, 0, 0.355);
+    color: white;
+  }
 /* footer */
 div.footer{
   padding: 30px;
@@ -339,7 +462,7 @@ a.footer-icons{
 
 /* services page */
 div.services-jumbotron{
-  background-image: url('/assets/nail-lounge-services-bg.png');
+  
   background-size: cover;
   padding: 25px 0;
 }
@@ -377,8 +500,13 @@ ul.mani, p.mani{
   font-size: 18px;
   
 }
+
 li.mani-desc{
   padding: 10px;
+}
+
+li.mani-pedi-desc{
+  text-align: center;
 }
 
 p.desc{
@@ -457,6 +585,70 @@ nav div.navbar{
       float: right;
       margin-top: 25px;
   }
+
+    /* about us */
+    div.about-us{
+      padding: 30px;
+      margin-top: 20px;
+    }
+    img.about-us-img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    p.caps{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      text-align: center;
+    }
+    h2.about-us-header{
+  
+      font-family: Roboto Slab, serif;
+      font-size: 45px;
+      text-align: center;
+  
+    }
+    p.about-info{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    /* spa info */
+  
+    div.spa.col-md{
+      margin-top: 4%;
+    }
+  
+    p.spa-info{
+      font-family: Roboto Slab, serif;
+      text-align: center;
+    }
+  
+    a.btn.spa-btn{
+      display: block;
+      
+      margin-right: auto;
+      margin-left: auto;
+      width: 20%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      border-style: solid;
+      border-width: 1.5px;
+      border-color: black;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px;
+    }
+  
+    a.btn.spa-btn:hover{
+      background-color: rgba(0, 0, 0, 0.647);
+      border-color: rgba(0, 0, 0, 0.355);
+      color: white;
+    }
   
   /* jumbotron */
   div.jumbotron{
@@ -480,7 +672,7 @@ nav div.navbar{
   .logo{
      flex: 1;
      text-align: center;
-     margin-left: 350px;
+     margin-left: 360px;
   }
   
   /* social icons */
@@ -493,6 +685,20 @@ nav div.navbar{
       text-decoration: none;
       color: black;
       padding: 45px;
+  }
+/* div.anouncement-bar{
+  display: block;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  color: white; 
+} */
+
+
+  p.phone-number{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+padding: 10px;
+
   }
   
   /* jumbotron */
@@ -648,7 +854,7 @@ div.footer-socials{
 
   /* services page */
   div.services-jumbotron{
-    background-image: url('/assets/nail-lounge-services-bg.png');
+   
     background-size: cover;
     padding: 100px 0;
   }
@@ -687,6 +893,10 @@ div.footer-socials{
   }
   li.mani-desc{
     padding: 10px;
+  }
+
+  li.mani-pedi-desc{
+    text-align: center;
   }
 
   p.desc{
