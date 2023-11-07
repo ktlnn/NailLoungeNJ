@@ -2,34 +2,38 @@
 @media only screen and (max-width: 675px) {
 
 .logo{
-
-   margin-left: 42px;
+display: block;
+text-align: center;
+  margin: auto;
 }
 
 /* social icons */
 
-div#navbarNavAltMarkup.navbar-collapse.social-icons.collapse.show{
-display: flex;
-  justify-content: center;
-}
+
 div.social-icons{
- display: inline-block;
+ display: block;
     list-style: none;
+    text-align: center;
 }
 a#facebook, #instagram, #email{
-  display: inline-block;
- 
-    text-decoration: none;
-    color: black;
-    padding: 10px;
+  display: none;
  
 }
 
-/* phone number */
-p.phone-number{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-}
+    /* anouncement bar */
+    div.anouncement-bar{
+      display: block;
+      text-align: center;
+      background-color: rgb(27, 27, 27);
+      color: white; 
+    }
+    
+    
+      p.phone-number{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    padding: 10px;
+      }
 
 /* jumbotron */
 div.jumbotron{
@@ -248,13 +252,13 @@ p.desc{
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .tabs label {
   order: 1; 
   display: block;
-  padding: 1rem 2rem;
+  padding: .5rem 1rem;
   cursor: pointer;
  
   font-family: 'Montserrat', sans-serif;
@@ -286,28 +290,38 @@ p.desc{
 }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 675px){
   /* nav styling */
 
 
 .logo{
-   flex: 1;
+   display: block;
    text-align: center;
-   margin-left: 100px;
+   margin: auto;
 }
 
 /* social icons */
 div.social-icons{
-    display: flex;
-    
-    list-style: none;
+    display: none;
 }
 a#facebook, #instagram, #email{
-    text-decoration: none;
-    color: black;
-    padding: 25px;
+  display: none;
    
 }
+  /* anouncement bar */
+  div.anouncement-bar{
+    display: block;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    color: white; 
+  }
+  
+  
+    p.phone-number{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+  padding: 10px;
+    }
 
 /* jumbotron */
 div.jumbotron{
@@ -524,7 +538,7 @@ p.desc{
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .tabs label {
@@ -565,24 +579,39 @@ p.desc{
   /* nav styling */
   
   .logo{
-     flex: 1;
-     text-align: center;
-     margin-left: 300px;
+    flex: 1;
+    text-align: center;
+    margin-left: 150px;
   }
 
-  
+    /* anouncement bar */
+div.anouncement-bar{
+  display: block;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  color: white; 
+}
+
+
+  p.phone-number{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+padding: 10px;
+  }
   
   /* social icons */
   div.social-icons{
-      display: inline-block;
+      display: flex;
+      float: right;
       list-style: none;
   }
   a#facebook, #instagram, #email{
+    display: inline-block;
       text-decoration: none;
       color: black;
-      padding: 30px;
-      float: right;
-      margin-top: 25px;
+      padding: 15px;
+   
+      margin-top: 3rem;
   }
 
     /* about us */
@@ -687,21 +716,21 @@ p.desc{
   a#facebook, #instagram, #email{
       text-decoration: none;
       color: black;
-      padding: 45px;
+      padding: 40px;
   }
-/* div.anouncement-bar{
+  /* anouncement bar */
+div.anouncement-bar{
   display: block;
   text-align: center;
   background-color: rgb(27, 27, 27);
   color: white; 
-} */
+}
 
 
   p.phone-number{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 padding: 10px;
-
   }
   
   /* jumbotron */
