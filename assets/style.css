@@ -146,6 +146,30 @@ a.service-btn:hover{
     border-color: rgba(0, 0, 0, 0.355);
     color: white;
   }
+
+  /* book now  with bnh btn */
+  a.btn.bookbnh-btn{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  }
+
+  a.btn.bookbnh-btn:hover{
+    background-color: rgba(0, 0, 0, 0.647);
+    border-color: rgba(0, 0, 0, 0.355);
+    color: white;
+  }
 /* footer */
 div.footer{
   padding: 30px;
@@ -432,6 +456,30 @@ a.service-btn:hover{
     border-color: rgba(0, 0, 0, 0.355);
     color: white;
   }
+/* book now  with bnh btn */
+a.btn.bookbnh-btn{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 8%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: black;
+color: black;
+padding: 10px 10px;
+text-decoration: none;
+cursor: pointer;
+border-radius: 30px;
+}
+
+a.btn.bookbnh-btn:hover{
+  background-color: rgba(0, 0, 0, 0.647);
+  border-color: rgba(0, 0, 0, 0.355);
+  color: white;
+}
+  
 /* footer */
 div.footer{
   padding: 30px;
